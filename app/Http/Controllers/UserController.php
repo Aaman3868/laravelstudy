@@ -30,7 +30,8 @@ class UserController extends Controller
                         'updated_at'=> now()
 
                     ]);
-                   
+                
+
                     if($user){
                         return redirect()->route('home');
                     }else{
