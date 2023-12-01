@@ -29,9 +29,8 @@ class UserController extends Controller
                         'created_at'=> now(),
                         'updated_at'=> now()
 
-                    ])
-                   s
-
+                    ]);
+                   
                     if($user){
                         return redirect()->route('home');
                     }else{
